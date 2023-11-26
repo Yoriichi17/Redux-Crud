@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+table {
+  background-color: aliceblue;
+  border: 3px solid black;
+  margin: auto auto;
+  margin-top: 10px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+tr th  {
+  border: 1px solid orangered;
+  font-size: xx-large;
+
+}
+
+td {
+  border: 1px solid orangered;
+  text-decoration: solid;
+  font-style: oblique;
+ 
+}
+
+#btn {
+  text-decoration: none;
+  border: 3px solid black;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: gainsboro;
+  color: black;
+
+  
+}
+
+#btn:hover {
+  background-color: orangered;
+  color: whitesmoke;
+  transition: 1s;
+}
+
+
+
+
+
+ 
+.c-App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px ;
+  margin-left: 550px;
+  gap : 10px;
+  border: 4px solid black;
+  width: fit-content;
+  padding: 5px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 4px black;
+  
+}
+input {
+  border-radius: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 300px;
+  font-size: large;
+}
+
